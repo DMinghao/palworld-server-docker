@@ -13,14 +13,21 @@ services:
       PGID: 1000
       PORT: 8211  # Optional but recommended
       PLAYERS: 16  # Optional but recommended
-      SERVER_PASSWORD: "worldofpals"  # Optional but recommended
+      SERVER_PASSWORD: "kkcampus"  # Optional but recommended
       MULTITHREADING: true
       RCON_ENABLED: true
       RCON_PORT: 25575
       TZ: "UTC"
+<<<<<<< Updated upstream
       ADMIN_PASSWORD: "adminPasswordHere"
       COMMUNITY: false  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
       SERVER_NAME: "palworld-server-docker by Thijs van Loef"
       SERVER_DESCRIPTION: "palworld-server-docker by Thijs van Loef"
+=======
+      ADMIN_PASSWORD: "qaz123WSXpalworld"
+      COMMUNITY: true  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
+      SERVER_NAME: "Pal KK Campus Server"
+      SERVER_DESCRIPTION: "Welcome to the Pal KK Campus. The home to all hard-working Pals!"
+>>>>>>> Stashed changes
     volumes:
-      - ./palworld:/palworld/
+      - /D/Palworld:/palworld/
